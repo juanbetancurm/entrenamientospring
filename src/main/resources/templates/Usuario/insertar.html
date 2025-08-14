@@ -31,8 +31,6 @@
                             <label for="username" class="form-label">Nombre de Usuario:</label>
                             <input type="text" class="form-control" id="username"
                                    th:field="*{username}" required>
-                            <div class="form-text">Datos guardados</div>
-                            <div class="form-text">freddy</div>
                         </div>
 
                         <div class="mb-3">
@@ -41,8 +39,9 @@
                                    th:field="*{password}" required>
                         </div>
 
-                        <div class="d-grid">
+                        <div class="d-grid gap-2">
                             <button type="submit" class="btn btn-warning">Guardar</button>
+                            <a th:href="@{/Usuario/listar}" class="btn btn-secondary">Cancelar</a>
                         </div>
                     </form>
                 </div>

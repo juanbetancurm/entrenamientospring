@@ -43,7 +43,7 @@ public class UsuarioController {
 
 	@GetMapping("/Usuario/actualizar/{id}")
 	public String actualizar(@PathVariable int id, Model model) {
-		Optional<Usuario> usuario = service.consultarUnCliente(id);
+		Optional<Usuario> usuario = service.consultarUnUsuario(id);
 		model.addAttribute("usuario", usuario);
 		return "Usuario/actualizar";
 	}

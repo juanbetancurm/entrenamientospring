@@ -8,5 +8,5 @@ public interface InterfaceUsuarioServices {
     public List<Usuario> listar();
     public int guardar(Usuario u);
     public void borrar(int id);
-    public Optional<Usuario> consultarUnCliente(int id);
+    public Optional<Usuario> consultarUnUsuario(int id);
 }

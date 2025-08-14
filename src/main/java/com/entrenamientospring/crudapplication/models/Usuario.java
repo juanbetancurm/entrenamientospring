@@ -14,11 +14,11 @@ public class Usuario {
     private String password;
     private String nombre_completo;
 
-    // Constructor vacío
+
     public Usuario() {
     }
 
-    // Constructor con parámetros
+
     public Usuario(int id, String username, String email, String password, String nombre_completo) {
         this.id = id;
         this.username = username;

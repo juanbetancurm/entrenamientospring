@@ -37,7 +37,7 @@ public class UsuarioServices implements InterfaceUsuarioServices {
 	}
 
 	@Override
-	public Optional<Usuario> consultarUnCliente(int id) {
+	public Optional<Usuario> consultarUnUsuario(int id) {
 		return datos.findById(id);
 	}
 }

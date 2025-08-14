@@ -14,11 +14,11 @@ public class Cliente {
 	private String celular;
 	private String direccion;
 
-	// Constructor vacío
+
 	public Cliente() {
 	}
 
-	// Constructor con id
+
 	public Cliente(int id, String nombre, String apellido, String celular, String direccion) {
 		this.id = id;
 		this.nombre = nombre;
